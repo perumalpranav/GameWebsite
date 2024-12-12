@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What's Your House?</title>
+        <link rel="icon" href="html-question.png" type="image/png">
+        <link rel="stylesheet" href="stylehoghouse.css">
+    </head>
+    <body>
+        <form id="quiz-form">
+            <div class="question">
+                <h3>1. What is the capital of France?</h3>
+                <label><input type="radio" name="question1" value="a">Berlin</label>
+                <label><input type="radio" name="question1" value="b">Madrid</label>
+                <label><input type="radio" name="question1" value="c">Paris</label>
+                <label><input type="radio" name="question1" value="d">Rome</label>
+            </div>
+    
+            <div class="question">
+                <h3>2. Who wrote 'Hamlet'?</h3>
+                <label><input type="radio" name="question2" value="a">Charles Dickens</label>
+                <label><input type="radio" name="question2" value="b">William Shakespeare</label>
+                <label><input type="radio" name="question2" value="c">Mark Twain</label>
+                <label><input type="radio" name="question2" value="d">Jane Austen</label>
+            </div>
+
+            <div class="question">
+                <h3>3. How many g's are there on the Google home page?</h3>
+                <label><input type="radio" name="question3" value="a">8</label>
+                <label><input type="radio" name="question3" value="b">9</label>
+                <label><input type="radio" name="question3" value="c">I ain't checking</label>
+                <label><input type="radio" name="question3" value="d">17</label>
+            </div>
+    
+            <button type="button" class="submit-button" onclick="submitQuiz()">Submit</button>
+        </form>
+    
+        <div id="result"></div>
+
+        <section>
+            <a class="homelink" href="/Website2/practice.html" target="_self"> 
+                Home Page &#9664;
+            </a>
+        </section>
+        <script src="hoghouse.js"></script>
+    </body>
+</html>

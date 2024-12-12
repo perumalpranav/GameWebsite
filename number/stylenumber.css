@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(205, 177, 136);
+    padding-bottom: 200px;
+}
+
+p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255)
+}
+
+.title {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.flexlayout {
+    background-color: rgb(250, 130, 130);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border: 2px solid black;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 700px;
+    justify-content: space-between;
+}
+
+.instructions {
+    height: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.blockgrid {
+    display: grid;
+    gap: 3px 3px;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    text-align: center;
+    flex: 1;
+    width: 100%;
+}
+
+.block {
+    background-color: orange;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+.enter-box {
+    height: 30px;
+    padding-top: 2px;
+    width: 100%;
+    background-color: rgb(205, 177, 136);
+    text-align: center;
+    border: 2px solid black; 
+    border-bottom-width: 0px;
+}
+
+.enter {
+    text-align: center;
+    font-size: 20px;
+    width: 100px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    transition: .3s ease;
+}
+
+.submitnum {
+    font-size: 20px;
+    height: 28px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+}
+
+.homelink {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+}
+
+.homelink:hover {
+    font-weight: 800;
+    text-decoration: underline;
+}

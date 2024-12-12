@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="2048.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-high-score">High Score: <span id="highscore">0</span></div>
+        <div class="game-grid">
+            <!-- Grid cells will be generated dynamically -->
+        </div>
+        <div class="game-score">Score: <span id="score">0</span></div>
+        <button class="button" id="restart-btn">Restart</button>
+        <input type="file" id="image-input" multiple>
+        <button class="button" id="change-image-btn">Change Images</button>
+        <button class="button" id="revert">Revert to Numbers</button>
+    </div>
+    <section>
+        <a class="homelink" href="/Website2/practice.html" target="_self"> 
+            Home Page &#9664;
+        </a>
+    </section>
+    <script src="2048.js"></script>
+</body>
+</html>

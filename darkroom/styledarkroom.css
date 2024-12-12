@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+}
+
+p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.solvedit {
+    background-color: wheat;
+}
+
+.riddle {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(55, 255, 0);
+    font-weight: 800;
+    font-size: 30px;
+    text-decoration: none;
+    position: fixed;
+    top: 40%;
+    left: 33%;
+    text-shadow: rgb(55, 255, 0) 1px 0 12px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    justify-content: space-between;
+    align-items: left;
+    height: 105px;
+}
+
+.textclue {
+    font-size: 18px;
+    color: black;
+}
+
+.textclue:hover {
+    color: rgb(109, 109, 109);
+    text-shadow: rgb(80, 255, 32) 1px 0 12px;
+}
+
+.clue {
+    width: 80px;
+}
+
+.finalbutton {
+    position: fixed;
+    top: 40%;
+    left: 0%;
+    border: none;
+    height: 10vh;
+    background-color: black;
+    user-select: none;
+}
+
+.finalbutton:hover {
+    box-shadow: rgb(87, 87, 87) 0 0 12px;
+}
+
+.homelink {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+}
+
+.homelink:hover {
+    font-weight: 800;
+    text-decoration: underline;
+}

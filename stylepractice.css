@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(66, 109, 94);
+    padding-top: 100px;
+    padding-bottom: 10000px;
+}
+
+p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.header {
+    background-color: rgb(66, 109, 94);
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.webtitle {
+    padding-left: 20px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.icon {
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+/*MOBILE*/
+@media (pointer: coarse) and (hover: none) and (orientation: portrait) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*MOBILE*/
+@media (pointer: coarse) and (hover: none) and (orientation: landscape) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.activity {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/*
+USE THIS TO CREATE MORE TEMPLATES
+*/
+.number-outer {
+    display: flex;
+    height: 96%;
+    width: 100%;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-inner {
+    font-family: 'Courier New', Courier, monospace;
+    height: 40%;
+    width: 90%;
+    color: rgb(55, 255, 0);
+    text-shadow: rgb(55, 255, 0) 1px 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image {
+    border-radius: 16px;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    transition: box-shadow 250ms, width 250ms;
+}
+
+.image:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
+    width: 102%
+}
+
+.returnlink {
+    color: white;
+    text-decoration: none;
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+}
+
+.returnlink:hover {
+    font-weight: 800;
+    text-decoration: underline;
+}

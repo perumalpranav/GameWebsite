@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What's that number!</title>
+        <link rel="icon" href="html-question.png" type="image/png">
+        <link rel="stylesheet" href="stylenumber.css">
+    </head>
+    </head>
+    <body>
+        <header class="title">
+            <p>PICK A NUMBER</p>
+        </header>
+        <main>
+            <section class="flexlayout">
+                <p class="instructions">Provide a Number Between 1-100</p>
+                <div style="align-items: center;">
+                    <div id="grid" class="blockgrid">
+                        <!-- This is what is used to fill space: <div class="block"></div> -->
+                    </div>
+                </div>
+                <div class="enter-box">
+                    <input id="input" class="enter" onkeyup="handler(event);" type="text" min="1" max="100"></input>
+                    <button class="submitnum" onclick="submitNum();">Submit</button>
+                </div>
+            </section>
+            <section>
+                <a class="homelink" href="/Website2/practice.html" target="_self"> 
+                    Home Page &#9664;
+                </a>
+            </section>
+            <script src="number.js"></script>
+        </main>
+    </body>
+</html>
