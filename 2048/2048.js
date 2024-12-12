@@ -72,6 +72,7 @@ function handleImageInput() {
     }
     images = [];
     for (let i = 0; i < 12; i++) {
+        //MODIFY TO RESIZE IMAGE
         const file = files[i];
         const reader = new FileReader();
         reader.onload = () => {
